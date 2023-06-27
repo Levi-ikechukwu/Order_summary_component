@@ -111,7 +111,7 @@ font-size: 15px;
 }
 
 .logo img{
-    height: 6vh;
+    height: 5vh;
     padding: 5px 10px;
 }
 
@@ -145,9 +145,9 @@ footer button:hover{
 }
 
 .can p{
-    color:  hsl(224, 23%, 55%);
-    font-size: 15px;
-    font-weight: 800;
+    color:  hsl(224, 15%, 57%);
+    font-size: 13px;
+    font-weight: 500;
     transition: 1s;
 }
 
@@ -175,16 +175,23 @@ footer button:hover{
     }
 
     .texts{
-        width: 69%;
-        margin-left: 45px;
+        width: 79%;
     }
 
     .image{
-        width: 80%;
+        width: 90%;
     }
 
     .year{
         margin-top: -2px;
+    }
+
+    .year h2{
+        margin-left: 80px;
+    }
+
+    .year p{
+        margin-left: 80px;
     }
 
     footer button{
@@ -195,4 +202,8 @@ footer button:hover{
         margin-bottom: 20px;
     }
 
+    .logo{
+        margin-top: -65px;
+        padding-left: 7px;
+    }
 }
